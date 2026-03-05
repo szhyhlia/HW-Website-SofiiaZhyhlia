@@ -1,0 +1,67 @@
+body {
+font-family: Georgia, serif;
+background-color: beige;
+margin: 0;
+color: darkolivegreen;
+}
+header {
+background-color: khaki;
+text-align: center;
+padding: 25px;
+}
+nav a {
+margin: 10px;
+text-decoration: none;
+font-weight: bold;
+color: darkolivegreen;
+}
+nav a:hover {
+color: darkgreen;
+}
+section {
+max-width: 800px;
+margin: 40px auto;
+background: white;
+padding: 25px;
+border-radius: 10px;
+}
+.main-photo {
+display: block;
+margin: 20px auto;
+width: 300px;
+border-radius: 15px;
+}
+.bio {
+font-style: italic;
+}
+.contacts ul {
+font-style: italic;
+}
+.photos {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 25px;
+justify-items: center;
+margin-top: 20px;
+}
+.photos img {
+width: 220px;
+height: 220px;
+object-fit: cover;
+border-radius: 15px;
+transition: transform 0.3s;
+}
+.photos img:hover {
+transform: scale(1.08);
+}
+.gallery h2 {
+text-align: center;
+color: darkolivegreen;
+margin-bottom: 30px;
+}
+footer {
+background: khaki;
+text-align: center;
+padding: 15px;
+margin-top: 40px;
+}
